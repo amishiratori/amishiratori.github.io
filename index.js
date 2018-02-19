@@ -1,6 +1,12 @@
 var menuHeight = $("#sidebar").outerHeight();
 var startPos = window.parent.screen.height;
 $(window).load(function(){
+    for(var i=1; i<48; i++){
+            $("#digital").append('<img src="images/photography/' + i + '.jpg" class="img">' );
+    }
+    for(var j=1; j<20; j++){
+        $("#film").append('<img src="images/photography/film' + j + '.jpg" class="img">');
+    } 
     $(window).scroll(function(){
         var currentPos = $(this).scrollTop();
         if (currentPos < window.parent.screen.height){  
@@ -14,12 +20,4 @@ $(window).load(function(){
 });
 })
 
-(window.onload = function() {
-    for(var i=1; i<48; i++){
-            $("#digital").append('<img src="images/photography/' + i + '.jpg" class="img">' );
-    }
-    for(var j=1; j<20; j++){
-        $("#film").append('<img src="images/photography/film' + j + '.jpg" class="img">');
-    } 
-})();
 
