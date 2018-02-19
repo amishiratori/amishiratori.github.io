@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rufina', serif;
+}
+
+#contents {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #f2e355;
+}
+
+#items{
+    width: 100%;
+    height: 800%;
+    background: #f2e355;
+}
+
+#photo_items{
+    width: 100%;
+    height: 1800%;
+    background: #f2e355;
+}
+
+#modal-contents{
+    display: none;
+    position: fixed;
+    width:100%;
+    height:100%;
+    background-color: rgba(255,255,255,0.7);
+　　top:0;
+　　left:0;
+　　z-index: 8000;
+    margin: 0 auto;
+}
+
+
+#modal {
+    position: sticky;
+　　width: 100%;
+   height: 100%;
+    margin: 0 auto;
+　　z-index: 9000;
+}
+
+.modal_center{
+    position: relative;
+    width: 70%;
+    height: 80%;
+    margin: 5% auto;
+}
+
+#modal img{
+    opacity: 1.0;
+    position: sticky;
+    margin: 0 auto;
+}
+
+.modal-img{
+    position: relative;
+    margin: 0 auto;
+}
+
+
+#header {
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+#header img{
+    width: 60%;
+    padding-top: 3%;
+}
+
+.photo_title {
+    width: 60%;
+    padding-top: 5%;
+    padding-left:5%;
+}
+
+
+#header p {
+    font-size: 100%;
+    padding: 0 15%;
+    line-height: 2em;
+}
+
+#sidebar {
+  margin: 1%;
+  padding: 2% 1%;
+  position: fixed;
+  z-index: 3000;
+  top: 0;
+  right: 0;
+  transition: .3s;
+  height: 20%;
+  width: 10%;
+  opacity: 0.0;
+}
+
+#sidebar img{
+    width: 40%;
+    padding:5%;
+}
+
+#sidebar img:hover {
+    opacity: 0.6;
+}
+
+
+.content {
+    display: block;
+    position: relative;
+    width: 100%;
+    font-size: 90%;
+    clear: left;
+}
+
+.center{
+    position: relative;
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+
+.photo_center{
+    position: relative;
+    display: block;
+    width: 70%;
+    height: 60%;
+    margin: 0 auto;
+    padding: 4% 0;
+}
+
+
+.center img {
+    width: 40%;
+    float: left;
+    padding: 5%;
+}
+
+.photo_center img {
+    width: 40%;
+    float: left;
+    margin: 4%;
+}
+
+
+
+#desktop img {
+    width: 70%;
+    padding: 5%;
+}
+
+#line img {
+    width: 20%;
+}
+
+#footer{
+    width: 100%;
+    height: 20%;
+    background: #f2e355;
+    position: relative;
+}
+
+#footer p {
+    position: absolute;
+    bottom:0;
+    padding-left: 40%;
+}
