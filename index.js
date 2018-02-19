@@ -14,11 +14,12 @@ $(window).load(function(){
 });
 })
 
-   
+(window.onload = function() {
     for(var i=1; i<48; i++){
             $("#digital").append('<img src="images/photography/' + i + '.jpg" class="img">' );
     }
     for(var j=1; j<20; j++){
         $("#film").append('<img src="images/photography/film' + j + '.jpg" class="img">');
     } 
+})();
 
