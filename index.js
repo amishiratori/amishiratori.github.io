@@ -14,42 +14,11 @@ $(window).load(function(){
 });
 })
 
-//window.onload = function() {
-//    
-//    for(var i=1; i<48; i++){
-//            $("#digital").append('<img src="images/photography/' + i + '.jpg" class="img">' );
-//    }
-//    for(var j=1; j<20; j++){
-//        $("#film").append('<img src="images/photography/film' + j + '.jpg" class="img">');
-//    } 
-//
-//        $(".img").click(function(){
-//            
-//            var height = $(window).innerHeight();
-//            var img_height = $(this).height();
-//            var img_width = $(this).width();
-//            
-//            var max_height = height*0.8;
-//            
-//            if (img_height > img_width*0.5){
-//                $("#modal-img").css("height", max_height);
-//            }else{
-//                $("#modal-img").css("width", "40%");
-//            }
-//            
-//
-//            var img = $(this).attr('src');
-//            console.log(img);
-//
-//            document.getElementById('modal-img').src = img;
-//            
-//            $("#modal-contents").fadeIn();
-//            
-//            $("#modal-contents").click(function(){
-//                  $("#modal-contents").fadeOut();
-//            });
-//
-//        });
-//
-//       
-//}
+   
+    for(var i=1; i<48; i++){
+            $("#digital").append('<img src="images/photography/' + i + '.jpg" class="img">' );
+    }
+    for(var j=1; j<20; j++){
+        $("#film").append('<img src="images/photography/film' + j + '.jpg" class="img">');
+    } 
+
